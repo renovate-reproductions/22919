@@ -15,7 +15,7 @@ jobs:
           GIT_AUTHOR_EMAIL: matticbot@users.noreply.github.com
           GIT_COMMITTER_NAME: matticbot
           GIT_COMMITTER_EMAIL: matticbot@users.noreply.github.com
-          DATA: ${{ toJson( github.event.issue ) }}
+          DATA: ${{ toJson( github.event.comment ) }}
           TOKEN: ${{ github.token }}
         run: |
           git fetch
