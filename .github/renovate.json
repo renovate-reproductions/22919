@@ -1,0 +1,5 @@
+{
+    "extends": [ "config:base" ],
+    "gitIgnoredAuthors": [ "matticbot@users.noreply.github.com" ],
+    "dependencyDashboard": true
+}
