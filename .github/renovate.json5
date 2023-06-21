@@ -6,6 +6,10 @@
         {
             extends: [ 'monorepo:react' ],
         },
+        {
+            extends: [ 'packages:jsUnitTest' ],
+            groupName: 'JS unit testing packages',
+        },
     ],
     dependencyDashboard: true,
 }
