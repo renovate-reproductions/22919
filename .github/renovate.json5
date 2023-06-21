@@ -1,0 +1,9 @@
+{
+    extends: [ 'config:base' ],
+    packageRules: [
+        {
+            extends: [ 'monorepo:react' ],
+        },
+    ],
+    dependencyDashboard: true,
+}
