@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "react": "^17",
-    "jest": "^29"
+    "react": "17.0.0",
+    "jest": "29.0.0"
   }
 }
