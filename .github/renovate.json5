@@ -1,5 +1,7 @@
 {
     extends: [ 'config:base' ],
+    baseBranches: [ 'base-branch' ],
+    useBaseBranchConfig: 'merge',
     packageRules: [
         {
             extends: [ 'monorepo:react' ],
