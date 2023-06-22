@@ -4,9 +4,6 @@
     useBaseBranchConfig: 'merge',
     packageRules: [
         {
-            extends: [ 'monorepo:react' ],
-        },
-        {
             extends: [ 'packages:jsUnitTest' ],
             groupName: 'JS unit testing packages',
         },
