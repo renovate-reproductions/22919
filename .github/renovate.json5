@@ -1,12 +1,8 @@
 {
-    extends: [ 'config:base' ],
-    baseBranches: [ 'base-branch' ],
-    useBaseBranchConfig: 'merge',
     packageRules: [
         {
             extends: [ 'packages:jsUnitTest' ],
             groupName: 'JS unit testing packages',
         },
     ],
-    dependencyDashboard: true,
 }
